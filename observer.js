@@ -28,10 +28,10 @@ class User {
 
 // Sử dụng
 const chatRoom = new Subject();
-const user1 = new User("MEKKY");
-const user2 = new User("HANLI");
+const user1 = new User("Thuong");
+const user2 = new User("Thanh");
 
 chatRoom.subscribe(user1);
 chatRoom.subscribe(user2);
 
-chatRoom.notify("Có tin nhắn mới!"); // MEKKY và HANLI nhận
+chatRoom.notify("Có tin nhắn mới!"); // Thuong và Thanh nhận
